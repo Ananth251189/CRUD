@@ -1,3 +1,4 @@
+import { ApiService } from './../shared/api.service';
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms'
 import { EmployeeModel } from './employee-dashboard.model';
@@ -14,8 +15,8 @@ export class EmployeeDashboardComponent implements OnInit {
   employeeData !: any;
   showAdd!: boolean;
   showUpdate!: boolean;
-  api: any;
-  constructor(private formbuilder: FormBuilder) { }
+
+  constructor(private formbuilder: FormBuilder, private api : ApiService) { }
 
   ngOnInit(): void {
     this.formValue = this.formbuilder.group({

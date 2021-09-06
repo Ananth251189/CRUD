@@ -1,18 +1,15 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": 2,
+      "firstName": "Anantha",
+      "lastName": "narayanan",
+      "email": "ananth126089@gmail.com",
+      "mobile": "9789908396",
+      "salary": "20000"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
